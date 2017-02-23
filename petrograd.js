@@ -1,6 +1,6 @@
 window.addEventListener("load", sidenVises);
 
-function sidenVises {
+function sidenVises() {
 
     console.log("siden vises");
     visProdukt();

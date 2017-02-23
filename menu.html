@@ -44,6 +44,7 @@
         <div class="container menukortoverskrift">
             <h1 class="row col-sm-4 col-sm-offset-4">Menukort</h1>
 
+
         </div>
 
         <!--    kødretter eller vegetar-->
@@ -57,91 +58,82 @@
 
         </div>
 
+    </div>
 
 
+    <!--alle retter-->
+    <div class="container-fluid retter">
 
-        <!--alle retter-->
-        <div class="container-fluid retter">
+        <!--forretteroverskrift-->
+        <div class="row col-sm-12 forretter">
+            <h2>Forretter</h2>
+        </div>
 
-            <!--forretteroverskrift-->
-            <div class="row col-sm-12 forretter">
-                <h2>Forretter</h2>
-            </div>
+        <!--alle forretter-->
+        <div class="forretter">
 
-            <!--alle forretter-->
-            <div class="forretter">
 
+            <div class="container produktliste">
                 <template id="produkt_template">
-                    <div class="container">
+                    <section class="row ">
+                        <!--Her skal produkter ligges ind-->
+                        <!--Russisk ringbrød-->
 
-                        <section class="row produktliste">
-                            <!--Her skal produkter ligges ind-->
-                            <!--Russisk ringbrød-->
+                        <div class="col-sm-7">
 
-                            <div class="col-sm-7">
-
-                                <h5 class="data_navn">DATA_NAVN...........</h5><span class="pris">39</span>.-</div>
+                            <h5><span class="data_navn">DATA_NAVN</span><span class="data_pris">39,-</span></h5></div>
 
 
-                            <div class="col-sm-2">
-                                <!-- Trigger the modal with a button -->
-                                <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#ringbroed">Mere om retten</button>
+                        <div class="col-sm-2">
+                            <!-- Trigger the modal with a button -->
+                            <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#ringbroed">Mere om retten</button>
 
 
-                            </div>
+                        </div>
 
-                        </section>
-                    </div>
-
-
+                    </section>
                 </template>
-
-
-
-
-
-                <!--                            container slutter for bulgarisk bondesuppe -->
-
-
-
-
-
-
-
-
-                <h2 class="row col-sm-4 col-sm-offset-4 hovedretter">Hovedretter</h2>
-
-                <h2 class="row col-sm-4 col-sm-offset-4 Desserter">Desserter</h2>
-
-                <h2 class="row col-sm-4 col-sm-offset-4 drikkevarer">Drikkevarer</h2>
-
-                <h2 class="row col-sm-4 col-sm-offset-4 sideorders">Sideorders</h2>
-
-
             </div>
-
 
         </div>
 
+        <!--                            container slutter for bulgarisk bondesuppe -->
 
 
 
-        <!-- jQuery Version 1.11.1 -->
-
-        <script src="jquery.js "></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="bootstrap.min.js "></script>
-
-        <script src="petrograd.js"></script>
 
 
 
-        <script>
-            $('#myModal').on('shown.bs.modal', function() {
-                        $('#myInput').focus()
 
-        </script>
+
+        <h2 class="row col-sm-4 col-sm-offset-4 hovedretter">Hovedretter</h2>
+
+        <h2 class="row col-sm-4 col-sm-offset-4 Desserter">Desserter</h2>
+
+        <h2 class="row col-sm-4 col-sm-offset-4 drikkevarer">Drikkevarer</h2>
+
+        <h2 class="row col-sm-4 col-sm-offset-4 sideorders">Sideorders</h2>
+
+
+    </div>
+
+    <!-- jQuery Version 1.11.1 -->
+
+    <script src="jquery.js "></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap.min.js "></script>
+
+    <script src="petrograd.js"></script>
+
+
+
+    <!--
+   <script>
+    $('#myModal').on('shown.bs.modal', function() {
+                $('#myInput').focus()
+</script>
+-->
 
 
 
