@@ -1,0 +1,85 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.menukortoverskrift h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+.menukorttop {
+    background-color: #eeedea;
+    height: 25vw;
+    margin-top: -3vw;
+    padding: 5vw;
+}
+.vegetarelkoed a {
+    color: darkred;
+    text-align: center;
+}
+.forretter {
+    margin-top: 5vw;
+}
+.retter {
+    background-color: white;
+    border-style: groove;
+    margin-top: 2vw;
+}
+h2 {
+    font-weight: 100;
+    text-align: center;
+}
+
+/*navbar*/
+
+.navbar navbar-inverse {
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    z-index: 100000;
+    width: 200px;
+}
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 80px;
+}
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fdfbfb;
+}
+
+/*modal*/
+
+img.ringbroed {
+    width: 350px;
+    margin-top: 1vw;
+    margin-left: -3vw;
+    text-align: left;
+}
+div.pris {
+    margin-top: 1vw;
+    font-weight: 800;
+    margin-top: 9vw;
+    margin-right: -2vw;
+    margin-bottom: 3vw;
+    text-align: right;
+}
+div.rabat {
+    margin-top: 3vw;
+    text-align: right;
+}
+div.salgstatus {
+    margin-top: 3vw;
+    text-align: right;
+}
+.vegetaregnet {
+    text-align: center;
+}

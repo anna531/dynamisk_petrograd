@@ -1,0 +1,30 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.forsidebillede img {
+    width: 100%;
+    margin-top: -20px;
+}
+.navbar navbar-inverse {
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    z-index: 100000;
+    width: 200px;
+}
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 80px;
+}
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fdfbfb;
+}
